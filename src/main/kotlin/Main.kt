@@ -121,11 +121,11 @@ object ConsoleServiceImpl: ConsoleService
     }
     private fun getArea()
     {
-        FigureServiceImpl.getArea()
+        println("Площадь всех фигур: ${FigureServiceImpl.getArea()}")
     }
     private fun getPerimiter()
     {
-        FigureServiceImpl.getPerimeter()
+        println("Периметр всех фигур: ${ FigureServiceImpl.getPerimeter() }")
     }
 }
 
